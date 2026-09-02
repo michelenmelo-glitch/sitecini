@@ -1,1 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CINI - O sabor que marca</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header>
+        <nav class="navbar">
+            <a href="#inicio" class="logo">CINI<span>®</span></a>
+
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#produto">Produto</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+
+            <button class="menu-btn" onclick="abrirMenu()">☰</button>
+        </nav>
+    </header>
+
+
+    <!-- SEÇÃO PRINCIPAL -->
+    <main>
+
+        <section id="inicio" class="hero">
+
+            <div class="hero-text">
+                <p class="destaque">REFRESCANTE • MARCANTE • CINI</p>
+
+                <h1>
+                    O sabor que<br>
+                    <span>marca momentos.</span>
+                </h1>
+
+                <p class="descricao">
+                    Descubra o sabor marcante do refrigerante CINI.
+                    Uma bebida refrescante para acompanhar seus
+                    melhores momentos.
+                </p>
+
+                <div class="botoes">
+                    <a href="#produto" class="btn btn-principal">
+                        Conheça o CINI
+                    </a>
+
+                    <a href="#sobre" class="btn btn-secundario">
+                        Saiba mais
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-produto">
+                <div class="circulo"></div>
+
+                <!-- Substitua pelo nome da imagem do seu refrigerante -->
+                <img
+                    src="cini.png"
+                    alt="Refrigerante CINI"
+                    class="garrafa"
+                >
+            </div>
+
+        </section>
+
+
+        <!-- PRODUTO -->
+        <section id="produto" class="produto">
+
+            <div class="produto-imagem">
+                <img
+                    src="cini.png"
+                    alt="Refrigerante CINI"
+                >
+            </div>
+
+            <div class="produto-texto">
+
+                <p class="mini-titulo">CONHEÇA O PRODUTO</p>
+
+                <h2>
+                    Um sabor que você
+                    <span>não esquece.</span>
+                </h2>
+
+                <p>
+                    CINI é uma opção refrescante para acompanhar
+                    refeições, encontros com amigos ou simplesmente
+                    aquele momento em que você quer saborear uma
+                    bebida especial.
+                </p>
+
+                <div class="caracteristicas">
+
+                    <div class="card">
+                        <div class="icone">🥤</div>
+                        <h3>Refrescante</h3>
+                        <p>Ideal para matar a sede.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="icone">⭐</div>
+                        <h3>Sabor marcante</h3>
+                        <p>Um sabor cheio de personalidade.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="icone">❤️</div>
+                        <h3>Tradição</h3>
+                        <p>Um sabor que conquista gerações.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- BANNER -->
+        <section class="banner">
+
+            <div>
+                <p>MAIS QUE UM REFRIGERANTE</p>
+
+                <h2>
+                    Um sabor para
+                    <span>todos os momentos.</span>
+                </h2>
+
+                <button onclick="mostrarMensagem()">
+                    Quero experimentar!
+                </button>
+            </div>
+
+        </section>
+
+
+        <!-- SOBRE -->
+        <section id="sobre" class="sobre">
+
+            <div class="sobre-texto">
+
+                <p class="mini-titulo">POR QUE ESCOLHER CINI?</p>
+
+                <h2>
+                    Seu momento merece
+                    <span>um sabor especial.</span>
+                </h2>
+
+                <p>
+                    Seja em uma refeição, em uma festa ou naquele
+                    encontro com os amigos, CINI combina com
+                    diferentes momentos.
+                </p>
+
+            </div>
+
+            <div class="beneficios">
+
+                <div class="beneficio">
+                    <span>01</span>
+                    <h3>Qualidade</h3>
+                    <p>
+                        Uma bebida pensada para proporcionar
+                        uma experiência refrescante.
+                    </p>
+                </div>
+
+                <div class="beneficio">
+                    <span>02</span>
+                    <h3>Sabor</h3>
+                    <p>
+                        Um sabor marcante para quem gosta
+                        de bebidas com personalidade.
+                    </p>
+                </div>
+
+                <div class="beneficio">
+                    <span>03</span>
+                    <h3>Momentos</h3>
+                    <p>
+                        Perfeito para compartilhar com
+                        pessoas especiais.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CHAMADA FINAL -->
+        <section id="contato" class="final">
+
+            <div class="final-conteudo">
+
+                <p>CINI</p>
+
+                <h2>
+                    Já experimentou
+                    <span>esse sabor?</span>
+                </h2>
+
+                <p>
+                    Descubra o CINI e deixe seus momentos
+                    ainda mais refrescantes.
+                </p>
+
+                <button onclick="mostrarMensagem()">
+                    QUERO CONHECER
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer>
+
+        <div class="footer-logo">
+            CINI<span>®</span>
+        </div>
+
+        <p>
+            © 2026 CINI — Página criada para fins educacionais.
+        </p>
+
+        <div class="redes">
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">TikTok</a>
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
 
